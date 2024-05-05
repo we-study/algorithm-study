@@ -34,7 +34,7 @@ public class Solution1 {
 }
 ```
 
-- 1ms 풀이
+### 1ms 풀이
 - charAt으로 문자열 하나하나 비교, 최대 O(n/2)  
 ``` java
 class Solution {
