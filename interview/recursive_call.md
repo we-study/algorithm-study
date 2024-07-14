@@ -16,22 +16,22 @@ public static ListNode swapPairsWithRecursion(ListNode head) {
 }
 ```
 
-1. Base Case(기본 조건 설정)
+### 1. Base Case(기본 조건 설정)
 - 종료 조건 설정하기
 -> head == null or head.next == null 일때 재귀가 종료된다 
 
-2. Divide the Problem
+### 2. Divide the Problem
 - 문제를 더 작은 문제로 분할해야한다
 -> 두 노드를 스왑하는 작업을 더 작은 문제로 나눔
 
-3. Recursive call
+### 3. Recursive call
 - 문제를 분할 하고, 재귀호출을 사용해서 작은 문제를 해결
 -> swapPairsWithRecursion(head.next.next)를 호출하여 나머지 리스트를 처리 
 
-4. Combine the results(결과 결합)
+### 4. Combine the results(결과 결합)
 - 재귀호출이 반환한 결과를 사용해서 전체 문제의 해결책을 결합
 -> 스왑된 나머지 리스트를 현재노드와 결합 
 
-5. Return the Result
+### 5. Return the Result
 - 스왑된 페어의 첫 번째 노드 반환
 
